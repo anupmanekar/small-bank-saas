@@ -3,9 +3,9 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
-  /* experimental: {
+  /*experimental: {
     serverComponentsExternalPackages: [`require-in-the-middle`],
-  }, */
+  }*/
 };
 
 export default withSentryConfig(nextConfig, {
